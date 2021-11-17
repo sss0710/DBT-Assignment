@@ -1,0 +1,21 @@
+1. Create a trigger to raise error if employee salary is less then avg salary of corresponding department.
+
+2. Add an additional column called to emp table called as last_updated_by and last_updated_date.
+   Upon each update issued on emp table, these columns must be updated by database user and current date (use function current_user() and SYSDATE())
+   
+3.  Upon delete of department records from dept table. The corresponding employees records must be deleted as well. Implement this requirement with trigger
+
+4. Create a table with following design
+
+      Table NAme : scott_schema_audit
+	   Columns : table_name, operation_name, db_user, change_date
+
+   Populate this table each time the user perform any DML command on emp,dept or salgrade table. Sample data will look like
+                 table_name, operation_name, db_user, change_date
+				 emp          update         root@localhost   2020-09-14
+				 dept         delete         root@localhost   2020-09-15
+				 ....
+				 
+	         
+
+   

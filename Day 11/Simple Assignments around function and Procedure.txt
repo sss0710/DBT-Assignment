@@ -1,0 +1,32 @@
+Taken from online site
+-------------------------
+
+1. Write a PL/SQL program to arrange the number of two variable in such a way that the small number will store in num_small variable and large number will store in num_large variable.
+
+2. Write a PL/SQL program to check whether a number is even or odd.
+
+4. Write a PL/SQL procedure to calculate the total salary for specific employee.
+
+5. Write a PL/SQL program to check whether a date falls on weekend i.e. SATURDAY or SUNDAY.
+
+6. Write a PL/SQL program to count number of employees in provided department.
+
+7. Write a PL/SQL program to display the description against a grade.
+
+8. Write a PL/SQL program to count number of employees in a specific department and check whether this department have any vacancies or not (considering that each department has 45 head count requirement). If any vacancies, how many vacancies are in that department.
+
+9. Write a PL/SQL program to display the description against a grade using CASE statement.
+
+10. Write a PL/SQL program to check whether a given number is positive, negative or zero.
+
+11. Write a PL/SQL program to check whether a given character is letter or digit.
+
+12. Write a PL/SQL program to display which day is a specific date.
+
+13. Write a program in PL/SQL to update the salary of a specifc employee by 8% if the salary exceeds the avg salary of their job.
+
+14. Write a program in PL/SQL to print 1st n numbers from provided input.
+  input : start with, end with, top n
+
+15. Write a program in PL/SQL to print the prime numbers between 1 to 50.
+

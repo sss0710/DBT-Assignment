@@ -1,0 +1,21 @@
+13. Fire command to check current user in database
+mysql-> select user();
+
+14. Fire command to see current date and time of server
+sysdate();
+
+15. Fire command to assign the output to select command to variable in MySQL
+set @ttime = sysdate();
+select @ttime;
+
+16. Print the value stored in variable on the screen
+set @ttime = sysdate();
+select @ttime;
+
+17. Observe the output of command "select DATE(current_date() +2),current_date();"
+
+18. Observe the command "select null;"
+      Identify what is null
+	  
+
+

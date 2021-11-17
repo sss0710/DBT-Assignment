@@ -1,0 +1,9 @@
+1. Update all Branch_id where referred as BR in place of B
+        eg: B00001 will become BR_00001
+2. For testing purpose create a copy of tran_detail table and use bulk insert to load 1 million records to it. Please make necessary arrangement to generate new TRAN_ID for each record
+3. Update Transaction type and medium of transaction values to upper case for all records of transaction table.
+4. Update phone number and base location of customer Abhishek (C00009) to 8976523191 and Pune
+5. Add a new column customer_cnt to Branch table and update it's value based on count of customer that branch has.
+6. Create a new table account_bak and copy all records of account table to account_bak
+7. Update the account status as Inavtive for account of customer 'Amit Kumar Borkar'
+8. Add a new transaction to account for all loan account customers as one time charge of 1000 Rs for current month.
